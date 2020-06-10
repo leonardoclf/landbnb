@@ -4,19 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LandBnB - Reserva</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
 </head>
 
 <body>
 
     <section class="barraNav">
-        <h1><a href="index.html">LandBnB</a></h1>
-        <ul>
-            <li><a href="lista.html">Lista de imóveis</a></li>
-            <li><a href="reserva.html">Reserva</a></li>
-        </ul>
-    </section>
+        <div>
+          <ul class="navtop">
+            <li class="brand"><a href="index.html">LandBnB</a></li>
+            <li class="service"><a href="reserva.html">Reserva</a></li>
+            <li class="service"><a href="lista.html">Lista de imóveis</a></li>
+          </ul>
+        </div>
+      </section>
 
-    <hr>
+    
     <form action="index.html" method="get">
         <fieldset>
             <legend>Formulário de Reserva</legend>
@@ -80,11 +85,17 @@
         Caso precise de mais detalhes ou prazo superado
         <a href="mailto:exemplo@exemplo.com"><br>entre em contato</a>.
     </address>
-    <hr>
+    
 
     <section class="rodape">
-        <p>2020® LandBnB</p>
-    </section>
+        <div>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="far fa-envelope"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <p>2020® LandBnB</p>
+        </div>
+      </section>
 
 </body>
 

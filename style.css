@@ -1,0 +1,88 @@
+/* Estilo geral  */
+
+
+body {
+    background-color: #f9f7f7;
+    margin: 0;
+    text-align: center;
+    color: #112d4e;
+}
+
+
+
+/* Barra de navegação */
+
+.navtop {
+    list-style-type: none;
+    margin: 0;
+    padding: 10;
+    overflow: hidden;
+    background-color: #3f72af;
+        
+}
+
+
+.brand {
+    float: left;
+    font-weight: 800;
+}
+
+
+.service {
+    float: right;
+        
+}
+
+
+.navtop a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+.navtop a:hover {
+    color: gold;
+}
+
+/* Rodape */
+
+.rodape {
+    margin: 30px 10px 0px 10px;
+    
+    
+}
+
+.rodape a {
+    color: #112d4e;
+}
+
+
+
+/* index.html */
+/* Imovel Destaque */
+
+.imovelDestaque {
+    background-color: #dbe2ef;
+}
+
+
+/* Chamada Para Ação */
+
+.chamadaparaacao {
+    background-color: #dbe2ef;
+}
+
+
+/* Lista */
+
+
+/* Reserva */
+
+
+
+
+
+
