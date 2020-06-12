@@ -70,16 +70,65 @@ body {
 /* index.html */
 /* Imovel Destaque */
 
+
+.apresentacao {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.txtapr {
+    position: relative;
+    left: 10%;
+    width: 40%;
+    line-height: 1.5rem;
+   
+}
+
+.fotoapr {
+    position: relative;
+    right: 10%;
+    text-align: right;
+    
+}
+
+
 .imovelDestaque {
     background-color: #dbe2ef;
+    
 }
+
+.desqtb {
+    margin-left: 10%;
+}
+
+.desqtexto {
+    position: relative;
+    left: 38%;
+    line-height: 1.5rem;
+}
+
+
+/* Testemunho */
+
+.dtest {
+    width: 50%;
+    height: 50%;
+    margin-left: 25%;
+    line-height: 1.5rem;
+    padding-bottom: 10px;
+}
+
 
 
 /* Chamada Para Ação */
 
 .chamadaparaacao {
     background-color: #dbe2ef;
+    padding-top: 10px;   
+    padding-bottom: 10px;
 }
+
 
 
 /* Lista */
