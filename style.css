@@ -1,5 +1,8 @@
 /* Estilo geral  */
 
+* {
+    font-family: 'Montserrat'
+}
 
 body {
     background-color: #f9f7f7;
