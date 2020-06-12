@@ -21,71 +21,79 @@
         </div>
       </section>
 
+    <div class="formulario">
+        <form action="index.html" method="get">
+            <fieldset>
+                <legend>Formulário de Reserva</legend>
+                <table>
+                    <tr>
+                        <td>
+                            <label for="nome">Nome:</label>
+                        </td>
+                        <td>
+                            <input type="text" name="nome" id="nome">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="email">Email:</label>
+                        </td>
+                        <td>
+                            <input type="email" name="email" id="email">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="imovel">Nome do Imóvel:</label>
+                        </td>
+                        <td>
+                            <input type="text" name="imovel" id="imovel">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="qtdhospede">Quantidade de Hospede:</label>
+                        </td>
+                        <td>
+                            <input type="number" name="qtdhospede" id="qtdhospede">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="datareserva">Data da Reserva:</label>
+                        </td>
+                        <td>
+                            <input type="date" name="datareserva" id="datareserva">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="observacao">Observações:</label>
+                            
+                        </td>
+                        <td>
+                            <textarea name="observacao" id="observacao" rows="5" cols="33">Seus Pedidos Especiais</textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                        </td>
+                        <td>
+                            <input type="submit" value="Enviar">
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+        </form>
+    </div>
     
-    <form action="index.html" method="get">
-        <fieldset>
-            <legend>Formulário de Reserva</legend>
-            <table>
-                <tr>
-                    <td>
-                        <label for="nome">Nome:</label>
-                    </td>
-                    <td>
-                        <input type="text" name="nome" id="nome">
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <label for="email">Email:</label>
-                    </td>
-                    <td>
-                        <input type="email" name="email" id="email">
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <label for="imovel">Nome do Imóvel:</label>
-                    </td>
-                    <td>
-                        <input type="text" name="imovel" id="imovel">
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <label for="qtdhospede">Quantidade de Hospede:</label>
-                    </td>
-                    <td>
-                        <input type="number" name="qtdhospede" id="qtdhospede">
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <label for="datareserva">Data da Reserva:</label>
-                    </td>
-                    <td>
-                        <input type="date" name="datareserva" id="datareserva">
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <label for="observacao">Observações:</label>
-                        <textarea name="observacao" id="observacao" rows="5" cols="33">Seus Pedidos Especiais</textarea>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <input type="submit" value="Enviar">
-                    </td>
-                </tr>
-            </table>
-        </fieldset>
-    </form>
-    <p>Seu requerimento de reserva será respondido no prazo de 48h.</p>
-    <address>
-        Caso precise de mais detalhes ou prazo superado
-        <a href="mailto:exemplo@exemplo.com"><br>entre em contato</a>.
-    </address>
-    
+    <div class="reservaobservacao">
+        <p>Seu requerimento de reserva será respondido no prazo de 48h.</p>
+        <address>
+            Caso precise de mais detalhes ou prazo superado
+            <a href="mailto:exemplo@exemplo.com"><br>entre em contato</a>.
+        </address>
+    </div>
 
     <section class="rodape">
         <div>
