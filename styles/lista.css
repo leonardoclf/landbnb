@@ -1,0 +1,43 @@
+
+
+
+.txtx ul {
+    list-style-type: none;
+    
+}
+
+.txtx {
+    text-align: start;
+
+}
+
+.geral {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content:  center;
+}
+
+.imgx {
+    margin: 5px 100px 5px 5px;
+}
+
+ul {
+    padding: 0;
+}
+
+/* Rodape */
+
+.rodape {
+    margin: 30px 10px 0px 10px;
+
+}
+
+.rodape a {
+    color: #112d4e;
+}
+
+.rodape a:hover {
+    color: black;
+    
+}

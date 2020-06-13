@@ -12,7 +12,6 @@ body {
 }
 
 
-
 /* Barra de navegação */
 
 .navtop {
@@ -50,21 +49,7 @@ body {
     color: gold;
 }
 
-/* Rodape */
 
-.rodape {
-    margin: 30px 10px 0px 10px;
-
-}
-
-.rodape a {
-    color: #112d4e;
-}
-
-.rodape a:hover {
-    color: black;
-    
-}
 
 
 /* index.html */
@@ -89,6 +74,8 @@ body {
     position: relative;
     right: 10%;
     text-align: right;
+    
+    
     
 }
 
@@ -188,5 +175,4 @@ input[type=submit] {
     width: 50%;
 
 }
-
 
