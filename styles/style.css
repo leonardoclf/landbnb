@@ -176,3 +176,20 @@ input[type=submit] {
 
 }
 
+
+/* Rodapé */
+
+.rodape {
+    margin: 30px 10px 0px 10px;
+    
+
+}
+
+.rodape a {
+    color: #112d4e;
+}
+
+.rodape a:hover {
+    color: black;
+    
+}
